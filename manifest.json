@@ -1,0 +1,14 @@
+{
+    "name": "Naman's Tab",
+    "version":"1.0",
+    "description": "Naman's Tab extension",
+    "manifest_version": 3,
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons":{
+        "1":"logo.png"
+    }
+    
+
+}

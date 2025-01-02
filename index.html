@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naman's Tab</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="sidebar">
+        <a href="https://chat.openai.com" target="_blank">ChatGPT</a>
+        <a href="https://gemini.com" target="_blank">Gemini</a>
+        <a href="https://blackbox.com" target="_blank">Blackbox</a>
+        <a href="https://youtube.com" target="_blank">YouTube</a>
+        <a href="https://leetcode.com" target="_blank">LeetCode</a>
+        <a href="https://codechef.com" target="_blank">CodeChef</a>
+        <a href="https://ethereum.org/en/" target="_blank">Ethereum</a>
+        <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Docs</a>
+        <div class="add-link" id="add-link-button">Add Link</div>
+    </div>
+
+    <div class="content">
+        <div class="ball"></div>
+        <div class="search-container hidden" id="search-container">
+            <form id="google-search" action="https://www.google.com/search" method="get" target="_self">
+                <input type="text" name="q" placeholder="Search Google">
+                <input type="submit" value="Google Search">
+            </form>
+        </div>
+        <div class="name" id="name">Naman Bordia</div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <h3>Add a New Link</h3>
+            <input type="text" id="link-name" placeholder="Enter Link Name">
+            <input type="url" id="link-url" placeholder="Enter Link URL">
+            <button id="save-link">Save</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
